@@ -1,0 +1,9 @@
+scenario,PSO,GWO,ACO
+obstacle_avoidance,1.0,2.0,3.0
+dynamic_obstacle_avoidance,1.0,2.0,3.0
+formation_flight,1.0,3.0,2.0
+area_coverage,1.0,3.0,2.0
+target_tracking,1.0,3.0,2.0
+multi_target_engagement,1.0,3.0,2.0
+
+mean_rank,1.0,2.6666666666666665,2.3333333333333335

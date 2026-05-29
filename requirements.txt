@@ -1,0 +1,35 @@
+# Core dependencies
+numpy>=1.24.0
+scipy>=1.10.0
+matplotlib>=3.7.0
+seaborn>=0.12.0
+pandas>=2.0.0
+
+# 3D visualization
+plotly>=5.14.0
+mayavi>=4.8.0
+
+# Video and GIF generation
+Pillow>=10.0.0
+imageio>=2.31.0
+
+# Simulation and robotics
+pymavlink>=2.4.37
+mavsdk>=1.4.0
+
+# Optimization and ML
+scikit-learn>=1.3.0
+networkx>=3.1
+
+# Data handling
+h5py>=3.9.0
+pyyaml>=6.0
+
+# Utilities
+tqdm>=4.65.0
+colorama>=0.4.6
+tabulate>=0.9.0
+
+# Testing
+pytest>=7.4.0
+pytest-cov>=4.1.0

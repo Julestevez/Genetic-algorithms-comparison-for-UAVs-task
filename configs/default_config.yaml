@@ -1,0 +1,176 @@
+# UAV Swarm Optimization Configuration
+
+# Simulation Parameters
+simulation:
+  time_step: 0.1  # seconds
+  max_duration: 300  # seconds
+  real_time: false
+  visualization: true
+  record_video: false
+
+# UAV Parameters
+uav:
+  num_uavs: 10
+  mass: 1.5  # kg
+  max_velocity: 15.0  # m/s
+  max_acceleration: 5.0  # m/s^2
+  max_angular_velocity: 2.0  # rad/s
+  collision_radius: 0.5  # m
+  communication_range: 100.0  # m
+  sensor_range: 50.0  # m
+  battery_capacity: 5000  # mAh
+  power_consumption: 100  # mA base
+
+# Environment Parameters
+environment:
+  bounds:
+    x_min: 0
+    x_max: 200
+    y_min: 0
+    y_max: 200
+    z_min: 0
+    z_max: 100
+
+  obstacles:
+    num_static: 20
+    num_dynamic: 5
+    min_size: 2.0
+    max_size: 10.0
+    dynamic_velocity: 2.0
+
+  wind:
+    enabled: true
+    max_speed: 5.0
+    turbulence: 0.5
+
+# Algorithm Parameters
+algorithms:
+  pso:
+    swarm_size: 30
+    max_iterations: 100
+    w: 0.7  # inertia weight
+    c1: 1.5  # cognitive parameter
+    c2: 1.5  # social parameter
+    w_damp: 0.99  # inertia damping
+
+  gwo:
+    pack_size: 30
+    max_iterations: 100
+    a_decay: 2.0  # linearly decreased from 2 to 0
+
+  aco:
+    colony_size: 30
+    max_iterations: 100
+    alpha: 1.0  # pheromone importance
+    beta: 2.0   # heuristic importance
+    rho: 0.1    # evaporation rate
+    q: 100      # pheromone deposit factor
+
+
+# Scenario Parameters
+scenarios:
+  obstacle_avoidance:
+    num_obstacles: 30
+    obstacle_density: 0.15
+    start_zone: [10, 10, 10]
+    goal_zone: [190, 190, 30]
+
+  area_coverage:
+    coverage_area: [0, 200, 0, 200]
+    grid_resolution: 5.0
+    coverage_threshold: 0.95
+    revisit_penalty: 0.5
+
+  target_tracking:
+    num_targets: 3
+    target_velocity: 5.0
+    tracking_radius: 10.0
+    prediction_horizon: 5.0
+
+  formation_flight:
+    formation_type: "v_shape"  # v_shape, line, circle, grid
+    formation_scale: 10.0
+    formation_tolerance: 2.0
+    leader_velocity: 10.0
+
+  multi_target_engagement:
+    num_targets: 8
+    target_types: ["high", "medium", "low"]
+    engagement_range: 15.0
+    coordination_required: true
+
+  dynamic_obstacle_avoidance:
+    num_dynamic_obstacles: 15
+    obstacle_velocity_range: [2.0, 8.0]
+    prediction_enabled: true
+    replanning_frequency: 1.0
+
+# Multi-Objective Weights
+objectives:
+  weights:
+    path_length: 0.25
+    energy_consumption: 0.20
+    time_to_goal: 0.20
+    collision_avoidance: 0.15
+    formation_maintenance: 0.10
+    coverage_quality: 0.10
+
+  constraints:
+    max_collision_distance: 2.0
+    min_separation_distance: 3.0
+    max_mission_time: 300.0
+    min_battery_level: 0.2
+
+# Evaluation Metrics
+evaluation:
+  metrics_enabled:
+    - success_rate
+    - completion_time
+    - path_length
+    - energy_efficiency
+    - collision_count
+    - formation_error
+    - coverage_ratio
+    - convergence_speed
+    - robustness_score
+    - scalability_index
+
+  statistical_tests:
+    - t_test
+    - wilcoxon
+    - friedman
+    - anova
+
+  confidence_level: 0.95
+  num_trials: 30
+
+# Visualization
+visualization:
+  plot_types:
+    - convergence_curve
+    - trajectory_3d
+    - formation_evolution
+    - metric_comparison
+    - heatmap
+    - statistical_boxplot
+
+  animation:
+    enabled: true
+    fps: 30
+    resolution: [1920, 1080]
+
+  colors:
+    uav: "#2E86AB"
+    obstacle: "#A23B72"
+    target: "#F18F01"
+    path: "#C73E1D"
+
+# Logging
+logging:
+  level: "INFO"  # DEBUG, INFO, WARNING, ERROR
+  save_logs: true
+  log_directory: "results/logs"
+  save_metrics: true
+  metrics_directory: "results/metrics"
+  save_plots: true
+  plots_directory: "results/plots"
