@@ -108,3 +108,9 @@ Files produced:
 one GIF per scenario in `per\_scenario/`
 one combined GIF in `combined/`
 sample PNG frames in `screenshots/`
+
+
+
+# GIF results of 6 scenarios (combined with three algorithms)
+
+
