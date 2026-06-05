@@ -99,7 +99,7 @@ python create\_scenario\_gifs.py \\
 ```
 This creates:
 ```text
-results/scenario\_gifs\_213734/
+results/scenario_gifs/
 ├── per\_scenario/
 ├── combined/
 └── screenshots/
