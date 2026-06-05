@@ -103,6 +103,7 @@ results/scenario_gifs/
 ├── per\_scenario/
 ├── combined/
 └── screenshots/
+
 ```
 Files produced:
 one GIF per scenario in `per\_scenario/`
@@ -110,6 +111,7 @@ one combined GIF in `combined/`
 sample PNG frames in `screenshots/`
 <br>
 <br>
+
 ---
 <br>
 <br>
