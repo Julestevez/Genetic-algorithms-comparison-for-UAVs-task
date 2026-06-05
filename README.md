@@ -1,9 +1,9 @@
 # Single-Objective Bio-Inspired Optimization for UAV Swarm Coordination
 Main author: Mohammed Safar (University of the Basque Country, PhD student)
 
-This code presents a rigorous comparative study of three prominent metaheuristics: Particle Swarm Optimization (PSO), Grey Wolf Optimizer (GWO), and Ant Colony Optimization (ACO), evaluated across six diverse mission profiles including dynamic obstacle avoidance, formation flight, and multi-target engagement
+This code presents a rigorous comparative study of three prominent metaheuristics: Particle Swarm Optimization (PSO), Grey Wolf Optimizer (GWO), and Ant Colony Optimization (ACO), evaluated across six diverse mission profiles including dynamic obstacle avoidance, formation flight, and multi-target engagement. [GIF animations can be found on this page](#GIF-results-of-6-scenarios-combined-with-three-algorithms).
 
-Project Structure
+## Project Structure
 ```text
 
 Paper\_A\_Single\_Objective/
@@ -118,6 +118,7 @@ sample PNG frames in `screenshots/`
 <br>
 
 # GIF results of 6 scenarios (combined with three algorithms)
+
 <br>
 
 ## S1- Static obstacle avoidance.
