@@ -108,9 +108,18 @@ Files produced:
 one GIF per scenario in `per\_scenario/`
 one combined GIF in `combined/`
 sample PNG frames in `screenshots/`
-
-
+<br>
+<br>
+---
+<br>
+<br>
 
 # GIF results of 6 scenarios (combined with three algorithms)
+<br>
+** Static obstacle avoidance. **
+<p align="center">
+  <img src="https://github.com/Julestevez/Genetic-algorithms-comparison-for-UAVs-task/blob/main/scenario_gifs/per_scenario/obstacle_avoidance_all_algorithms.gif" alt="Scenario 1" width="1400"/>
+</p>
+<br>
 
 
