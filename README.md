@@ -117,14 +117,45 @@ sample PNG frames in `screenshots/`
 
 # GIF results of 6 scenarios (combined with three algorithms)
 <br>
-** Static obstacle avoidance. **
+
+## S1- Static obstacle avoidance.
 <p align="center">
   <img src="https://github.com/Julestevez/Genetic-algorithms-comparison-for-UAVs-task/blob/main/scenario_gifs/per_scenario/obstacle_avoidance_all_algorithms.gif" alt="Scenario 1" width="1400"/>
 </p>
 <br>
 
-** Dynamic obstacle avoidance. **
+## S2- Dynamic obstacle avoidance.
+
 <p align="center">
   <img src="https://github.com/Julestevez/Genetic-algorithms-comparison-for-UAVs-task/blob/main/scenario_gifs/per_scenario/dynamic_obstacle_avoidance_all_algorithms.gif" alt="Scenario 2" width="1400"/>
 </p>
+<br>
+
+## S3- Formation flight.
+
+<p align="center">
+  <img src="https://github.com/Julestevez/Genetic-algorithms-comparison-for-UAVs-task/blob/main/scenario_gifs/per_scenario/formation_flight_all_algorithms.gif" alt="Scenario 3" width="1400"/>
+</p>
+<br>
+
+## S4- Area coverage.
+
+<p align="center">
+  <img src="https://github.com/Julestevez/Genetic-algorithms-comparison-for-UAVs-task/blob/main/scenario_gifs/per_scenario/area_coverage_all_algorithms.gif" alt="Scenario 4" width="1400"/>
+</p>
+<br>
+
+## S5- Target tracking.
+
+<p align="center">
+  <img src="https://github.com/Julestevez/Genetic-algorithms-comparison-for-UAVs-task/blob/main/scenario_gifs/per_scenario/target_tracking_all_algorithms.gif" alt="Scenario 5" width="1400"/>
+</p>
+<br>
+
+## S6- Multi-target engagement.
+
+<p align="center">
+  <img src="https://github.com/Julestevez/Genetic-algorithms-comparison-for-UAVs-task/blob/main/scenario_gifs/per_scenario/multi_target_engagement_all_algorithms.gif" alt="Scenario 6" width="1400"/>
+</p>
+<br>
 
