@@ -113,6 +113,7 @@ sample PNG frames in `screenshots/`
 ---
 <br>
 <br>
+<br>
 
 # GIF results of 6 scenarios (combined with three algorithms)
 <br>
@@ -122,4 +123,8 @@ sample PNG frames in `screenshots/`
 </p>
 <br>
 
+** Dynamic obstacle avoidance. **
+<p align="center">
+  <img src="https://github.com/Julestevez/Genetic-algorithms-comparison-for-UAVs-task/blob/main/scenario_gifs/per_scenario/dynamic_obstacle_avoidance_all_algorithms.gif" alt="Scenario 2" width="1400"/>
+</p>
 
