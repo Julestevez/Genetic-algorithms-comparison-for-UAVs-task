@@ -1,0 +1,65 @@
+{
+  "total_runs": 540,
+  "algorithms": [
+    "PSO",
+    "GWO",
+    "ACO"
+  ],
+  "scenarios": [
+    "obstacle_avoidance",
+    "dynamic_obstacle_avoidance",
+    "formation_flight",
+    "area_coverage",
+    "target_tracking",
+    "multi_target_engagement"
+  ],
+  "by_algorithm": {
+    "PSO": {
+      "mean_fitness": 131.78844220299086,
+      "std_fitness": 202.6539780932838,
+      "best_fitness": 4.733128740459605e-06
+    },
+    "GWO": {
+      "mean_fitness": 423.81700154985964,
+      "std_fitness": 588.1171762891412,
+      "best_fitness": 11.08161900110863
+    },
+    "ACO": {
+      "mean_fitness": 315.27692349197514,
+      "std_fitness": 365.6981804953963,
+      "best_fitness": 9.988411499953889
+    }
+  },
+  "by_scenario": {
+    "obstacle_avoidance": {
+      "mean_fitness": 49.168246164783994,
+      "std_fitness": 34.37020379687038,
+      "best_fitness": 9.967042088701838
+    },
+    "dynamic_obstacle_avoidance": {
+      "mean_fitness": 50.70965600047071,
+      "std_fitness": 39.683154514407505,
+      "best_fitness": 8.528006278243742
+    },
+    "formation_flight": {
+      "mean_fitness": 440.8276732016267,
+      "std_fitness": 249.241591216966,
+      "best_fitness": 99.14009836378644
+    },
+    "area_coverage": {
+      "mean_fitness": 93.61790562909721,
+      "std_fitness": 41.331615542123295,
+      "best_fitness": 28.50000732397335
+    },
+    "target_tracking": {
+      "mean_fitness": 84.06841873413435,
+      "std_fitness": 80.17535792038872,
+      "best_fitness": 4.733128740459605e-06
+    },
+    "multi_target_engagement": {
+      "mean_fitness": 1023.3728347595385,
+      "std_fitness": 546.5279147060456,
+      "best_fitness": 103.01797959357404
+    }
+  }
+}
